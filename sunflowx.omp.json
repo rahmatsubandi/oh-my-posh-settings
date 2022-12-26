@@ -43,7 +43,7 @@
           "type": "path"
         },
         {
-          "background": "#FFFB38",
+          "background": "#00b140",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "background_templates": [
@@ -86,8 +86,8 @@
           "type": "php"
         },
         {
-          "background": "#6CA35E",
-          "foreground": "#ffffff",
+          "background": "#3C873A",
+          "foreground": "#FFFFFF",
           "leading_diamond": "\ue0b2",
           "style": "diamond",
           "template": " \uE718  {{ .Full  }} <transparent>\ue0b2</>",
