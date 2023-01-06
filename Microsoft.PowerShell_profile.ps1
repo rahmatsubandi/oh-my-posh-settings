@@ -8,9 +8,6 @@ function optimize{php artisan optimize}
 function optimize:clear{php artisan optimize:clear}
 function migrate{php artisan migrate}
 function migrate:fresh{php artisan migrate:fresh --seed}
-function db{php artisan db:@args}
-function make{php artisan make:@args}
-function event{php artisan event:@args}
 
 # GIT ALIASES
 function status{git status}
