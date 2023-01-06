@@ -7,8 +7,8 @@ function serve{php artisan serve}
 function optimize{php artisan optimize}
 function optimize:clear{php artisan optimize:clear}
 function migrate{php artisan migrate}
-function migrate:fresh{php artisan migrate:fresh --seed --force}
-function migrate:refresh{php artisan migrate:refresh --seed --force}
+function migrate seed{php artisan migrate --seed}
+function migrate:fresh{php artisan migrate:fresh --seed}
 
 # GIT ALIASES
 function status{git status}
