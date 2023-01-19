@@ -14,6 +14,7 @@ function status{git status}
 function init{git init}
 function add{git add .}
 function commit{git commit -m @args}
+function remote{git remote add origin @args}
 function push{git push}
 function pull{git pull}
 function clone{git clone @args}
