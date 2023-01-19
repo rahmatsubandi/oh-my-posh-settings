@@ -15,6 +15,7 @@ function init{git init}
 function add{git add .}
 function commit{git commit -m @args}
 function remote{git remote add origin @args}
+function push:origin{git push -u origin @args} # for first push
 function push{git push}
 function pull{git pull}
 function clone{git clone @args}
