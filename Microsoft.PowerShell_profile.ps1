@@ -11,6 +11,7 @@ function migrate:fresh{php artisan migrate:fresh --seed --force}
 
 # GIT ALIASES
 function status{git status}
+function init{git init}
 function add{git add .}
 function commit{git commit -m @args}
 function push{git push}
