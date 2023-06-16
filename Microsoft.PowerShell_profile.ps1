@@ -4,6 +4,10 @@ oh-my-posh --init --shell pwsh --config ~\AppData\Local\Programs\oh-my-posh\them
 function dump-autoload{composer dump-autoload -o}
 function artisan{php artisan @args}
 function serve{php artisan serve}
+function acc{php artisan config:cache}
+function arc{php artisan route:cache}
+function avc{php artisan view:cache}
+function avl{php artisan view:clear}
 function optimize{php artisan optimize}
 function optimize:clear{php artisan optimize:clear}
 function migrate{php artisan migrate}
