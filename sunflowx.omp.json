@@ -28,7 +28,7 @@
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
-          "template": " \ufcbe {{ .HostName }} ",
+          "template": " \ue617 {{ .HostName }} ",
           "type": "session"
         },
         {
@@ -69,7 +69,7 @@
           },
           "trailing_diamond": "\ue0b4",
           "style": "diamond",
-          "template": "<#fff> \uf64f </>{{ .CurrentDate | date .Format }} ",
+          "template": "<#fff> \ue641 </>{{ .CurrentDate | date .Format }} ",
           "type": "time"
         }
       ],
@@ -101,7 +101,7 @@
             "always_enabled": true
           },
           "style": "diamond",
-          "template": " \uf608 {{ .FormattedMs }}",
+          "template": " \uf252 {{ .FormattedMs }}",
           "trailing_diamond": "\ue0b4",
           "type": "executiontime"
         }
