@@ -25,3 +25,7 @@ function pull{git pull}
 function clone{git clone @args}
 function branch{git branch @args}
 function checkout{git checkout @args}
+
+# NODE ALIASES
+function node23{nvm use 23}
+function node18{nvm use 18}
